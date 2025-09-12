@@ -1,6 +1,7 @@
 ---
 title: HazyDet：在朦胧场景中使用深度线索进行无人机视图目标检测的开源基准
 slug: HazyDet
+math: true
 ---
 # HazyDet：在朦胧场景中使用深度线索进行无人机视图目标检测的开源基准
 <!-- more --> 
