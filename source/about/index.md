@@ -49,13 +49,13 @@ type: about
         </tr>
         </tbody>
 </table> 
-        <p>
-          <img
-            src="/images/avatar.jpg"
-            style="border-radius: 50%; width: 50%"
-            alt="avatar"
-          />
-        </p>
+<p>
+    <img
+    src="/images/avatar.jpg"
+    style="border-radius: 50%; width: 50%"
+    alt="avatar"
+    />
+</p>
 <style>
 /* --- 自定义标题样式 --- */
 .custom-h2 {
