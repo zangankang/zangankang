@@ -92,7 +92,7 @@ Glue Layer由pool、cat、conv和BN组成，pool和cat函数有助于提取潜�
 
 可以看见SID模型生成的RGB图像和G2e重建得到的图像已经非常相近了。为了进一步优化G2e模型，作者还使用YOLO的分类输出特征向量来优化G2e，以提升其转换域A->B的性能：
 
-$$ L _ { G 2 e - F T } = c o s \left( \overrightarrow { L } F _ { G 2 e - c l s } , \overrightarrow { L } F _ { G 2 e - c l s } \right)$$
+$$ L _ { G 2 e - F T } = c o s \left( \overrightarrow { L } F _ { G 2 e - c l s } , \overrightarrow { L } F _ { YOLO - c l s } \right)$$
 
 使用余弦相似度来计算向量之间的损失，通过反向传播进行更新迭代和优化。
 
